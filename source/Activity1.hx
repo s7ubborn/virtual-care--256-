@@ -318,6 +318,7 @@ class Activity1 extends FlxState
 			outlineChair.removeFilter(filter2);
 			outlineDrawer.removeFilter(filter2);
 			outlineBox.removeFilter(filter2);
+			outlineBed.removeFilter(filter2);
 			
 			outlineBed.addFilter(filter2);
 		}

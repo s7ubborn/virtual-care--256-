@@ -38,6 +38,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
+		urls.push ("assets/data/ogmolevel/easyLvl.oel");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
 		urls.push ("assets/data/ogmolevel/easyLvl1.oel");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -79,6 +83,10 @@ class ApplicationMain {
 		
 		
 		urls.push ("assets/images/button.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/images/buttonAnneloes - kopie.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
@@ -202,6 +210,14 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/images/toolbutton1_Activity1.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/images/toolbutton2_Activity1.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/images/trolly_Activity1.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
@@ -298,6 +314,7 @@ class ApplicationMain {
 			file: "Virtual care",
 			fps: Std.int (60),
 			fullscreen: false,
+			hardware: true,
 			height: Std.int (768),
 			orientation: "portrait",
 			packageName: "com.example.myapp",

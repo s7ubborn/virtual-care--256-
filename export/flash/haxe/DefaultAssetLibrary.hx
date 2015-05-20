@@ -47,6 +47,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/data/data-goes-here.txt", __ASSET__assets_data_data_goes_here_txt);
 		type.set ("assets/data/data-goes-here.txt", AssetType.TEXT);
+		className.set ("assets/data/ogmolevel/easyLvl.oel", __ASSET__assets_data_ogmolevel_easylvl_oel);
+		type.set ("assets/data/ogmolevel/easyLvl.oel", AssetType.TEXT);
 		className.set ("assets/data/ogmolevel/easyLvl1.oel", __ASSET__assets_data_ogmolevel_easylvl1_oel);
 		type.set ("assets/data/ogmolevel/easyLvl1.oel", AssetType.TEXT);
 		className.set ("assets/data/ogmolevel/easyLvl2.oel", __ASSET__assets_data_ogmolevel_easylvl2_oel);
@@ -69,6 +71,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/box_activity1.png", AssetType.IMAGE);
 		className.set ("assets/images/button.png", __ASSET__assets_images_button_png);
 		type.set ("assets/images/button.png", AssetType.IMAGE);
+		className.set ("assets/images/buttonAnneloes - kopie.png", __ASSET__assets_images_buttonanneloes___kopie_png);
+		type.set ("assets/images/buttonAnneloes - kopie.png", AssetType.IMAGE);
 		className.set ("assets/images/buttonAnneloes.png", __ASSET__assets_images_buttonanneloes_png);
 		type.set ("assets/images/buttonAnneloes.png", AssetType.IMAGE);
 		className.set ("assets/images/buttonCredits.png", __ASSET__assets_images_buttoncredits_png);
@@ -129,6 +133,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/selectbutton.png", AssetType.IMAGE);
 		className.set ("assets/images/Tile_sheet.png", __ASSET__assets_images_tile_sheet_png);
 		type.set ("assets/images/Tile_sheet.png", AssetType.IMAGE);
+		className.set ("assets/images/toolbutton1_Activity1.png", __ASSET__assets_images_toolbutton1_activity1_png);
+		type.set ("assets/images/toolbutton1_Activity1.png", AssetType.IMAGE);
+		className.set ("assets/images/toolbutton2_Activity1.png", __ASSET__assets_images_toolbutton2_activity1_png);
+		type.set ("assets/images/toolbutton2_Activity1.png", AssetType.IMAGE);
 		className.set ("assets/images/trolly_Activity1.png", __ASSET__assets_images_trolly_activity1_png);
 		type.set ("assets/images/trolly_Activity1.png", AssetType.IMAGE);
 		className.set ("assets/images/wall.png", __ASSET__assets_images_wall_png);
@@ -149,6 +157,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		var id;
 		id = "assets/data/data-goes-here.txt";
+		path.set (id, id);
+		
+		type.set (id, AssetType.TEXT);
+		id = "assets/data/ogmolevel/easyLvl.oel";
 		path.set (id, id);
 		
 		type.set (id, AssetType.TEXT);
@@ -193,6 +205,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/button.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/buttonAnneloes - kopie.png";
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
@@ -316,6 +332,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
+		id = "assets/images/toolbutton1_Activity1.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/toolbutton2_Activity1.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
 		id = "assets/images/trolly_Activity1.png";
 		path.set (id, id);
 		
@@ -407,6 +431,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
+		
+		
+		
 		#end
 		
 		#if (windows || mac || linux)
@@ -415,6 +443,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/data/data-goes-here.txt", __ASSET__assets_data_data_goes_here_txt);
 		type.set ("assets/data/data-goes-here.txt", AssetType.TEXT);
+		
+		className.set ("assets/data/ogmolevel/easyLvl.oel", __ASSET__assets_data_ogmolevel_easylvl_oel);
+		type.set ("assets/data/ogmolevel/easyLvl.oel", AssetType.TEXT);
 		
 		className.set ("assets/data/ogmolevel/easyLvl1.oel", __ASSET__assets_data_ogmolevel_easylvl1_oel);
 		type.set ("assets/data/ogmolevel/easyLvl1.oel", AssetType.TEXT);
@@ -448,6 +479,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/images/button.png", __ASSET__assets_images_button_png);
 		type.set ("assets/images/button.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/buttonAnneloes - kopie.png", __ASSET__assets_images_buttonanneloes___kopie_png);
+		type.set ("assets/images/buttonAnneloes - kopie.png", AssetType.IMAGE);
 		
 		className.set ("assets/images/buttonAnneloes.png", __ASSET__assets_images_buttonanneloes_png);
 		type.set ("assets/images/buttonAnneloes.png", AssetType.IMAGE);
@@ -538,6 +572,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/images/Tile_sheet.png", __ASSET__assets_images_tile_sheet_png);
 		type.set ("assets/images/Tile_sheet.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/toolbutton1_Activity1.png", __ASSET__assets_images_toolbutton1_activity1_png);
+		type.set ("assets/images/toolbutton1_Activity1.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/toolbutton2_Activity1.png", __ASSET__assets_images_toolbutton2_activity1_png);
+		type.set ("assets/images/toolbutton2_Activity1.png", AssetType.IMAGE);
 		
 		className.set ("assets/images/trolly_Activity1.png", __ASSET__assets_images_trolly_activity1_png);
 		type.set ("assets/images/trolly_Activity1.png", AssetType.IMAGE);
@@ -1161,6 +1201,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 #if flash
 
 @:keep @:bind #if display private #end class __ASSET__assets_data_data_goes_here_txt extends flash.utils.ByteArray { }
+@:keep @:bind #if display private #end class __ASSET__assets_data_ogmolevel_easylvl_oel extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_data_ogmolevel_easylvl1_oel extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_data_ogmolevel_easylvl2_oel extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_data_ogmolevel_virtual_care_oep extends flash.utils.ByteArray { }
@@ -1172,6 +1213,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_images_boxtrolly_activity1_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_box_activity1_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_button_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_buttonanneloes___kopie_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_buttonanneloes_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_buttoncredits_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_buttonjoep_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -1202,6 +1244,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_images_push1_activity1_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_selectbutton_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_tile_sheet_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_toolbutton1_activity1_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_toolbutton2_activity1_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_trolly_activity1_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_wall_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_wrong_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -1264,6 +1308,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+
+
+
+
 #else
 
 
@@ -1272,6 +1320,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 @:file("assets/data/data-goes-here.txt") #if display private #end class __ASSET__assets_data_data_goes_here_txt extends lime.utils.ByteArray {}
+@:file("assets/data/ogmolevel/easyLvl.oel") #if display private #end class __ASSET__assets_data_ogmolevel_easylvl_oel extends lime.utils.ByteArray {}
 @:file("assets/data/ogmolevel/easyLvl1.oel") #if display private #end class __ASSET__assets_data_ogmolevel_easylvl1_oel extends lime.utils.ByteArray {}
 @:file("assets/data/ogmolevel/easyLvl2.oel") #if display private #end class __ASSET__assets_data_ogmolevel_easylvl2_oel extends lime.utils.ByteArray {}
 @:file("assets/data/ogmolevel/virtual care.oep") #if display private #end class __ASSET__assets_data_ogmolevel_virtual_care_oep extends lime.utils.ByteArray {}
@@ -1283,6 +1332,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:image("assets/images/boxtrolly_activity1.png") #if display private #end class __ASSET__assets_images_boxtrolly_activity1_png extends lime.graphics.Image {}
 @:image("assets/images/box_activity1.png") #if display private #end class __ASSET__assets_images_box_activity1_png extends lime.graphics.Image {}
 @:image("assets/images/button.png") #if display private #end class __ASSET__assets_images_button_png extends lime.graphics.Image {}
+@:image("assets/images/buttonAnneloes - kopie.png") #if display private #end class __ASSET__assets_images_buttonanneloes___kopie_png extends lime.graphics.Image {}
 @:image("assets/images/buttonAnneloes.png") #if display private #end class __ASSET__assets_images_buttonanneloes_png extends lime.graphics.Image {}
 @:image("assets/images/buttonCredits.png") #if display private #end class __ASSET__assets_images_buttoncredits_png extends lime.graphics.Image {}
 @:image("assets/images/buttonJoep.png") #if display private #end class __ASSET__assets_images_buttonjoep_png extends lime.graphics.Image {}
@@ -1313,13 +1363,15 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:image("assets/images/push1_Activity1.png") #if display private #end class __ASSET__assets_images_push1_activity1_png extends lime.graphics.Image {}
 @:image("assets/images/selectbutton.png") #if display private #end class __ASSET__assets_images_selectbutton_png extends lime.graphics.Image {}
 @:image("assets/images/Tile_sheet.png") #if display private #end class __ASSET__assets_images_tile_sheet_png extends lime.graphics.Image {}
+@:image("assets/images/toolbutton1_Activity1.png") #if display private #end class __ASSET__assets_images_toolbutton1_activity1_png extends lime.graphics.Image {}
+@:image("assets/images/toolbutton2_Activity1.png") #if display private #end class __ASSET__assets_images_toolbutton2_activity1_png extends lime.graphics.Image {}
 @:image("assets/images/trolly_Activity1.png") #if display private #end class __ASSET__assets_images_trolly_activity1_png extends lime.graphics.Image {}
 @:image("assets/images/wall.png") #if display private #end class __ASSET__assets_images_wall_png extends lime.graphics.Image {}
 @:image("assets/images/wrong.png") #if display private #end class __ASSET__assets_images_wrong_png extends lime.graphics.Image {}
 @:file("assets/music/music-goes-here.txt") #if display private #end class __ASSET__assets_music_music_goes_here_txt extends lime.utils.ByteArray {}
 @:file("assets/sounds/sounds-go-here.txt") #if display private #end class __ASSET__assets_sounds_sounds_go_here_txt extends lime.utils.ByteArray {}
-@:file("C:/HaxeToolkit/haxe/lib/flixel/3,3,8/assets/sounds/beep.mp3") #if display private #end class __ASSET__assets_sounds_beep_mp3 extends lime.utils.ByteArray {}
-@:file("C:/HaxeToolkit/haxe/lib/flixel/3,3,8/assets/sounds/flixel.mp3") #if display private #end class __ASSET__assets_sounds_flixel_mp3 extends lime.utils.ByteArray {}
+@:file("D:/Haxe Toolkit/haxe/lib/flixel/3,3,8/assets/sounds/beep.mp3") #if display private #end class __ASSET__assets_sounds_beep_mp3 extends lime.utils.ByteArray {}
+@:file("D:/Haxe Toolkit/haxe/lib/flixel/3,3,8/assets/sounds/flixel.mp3") #if display private #end class __ASSET__assets_sounds_flixel_mp3 extends lime.utils.ByteArray {}
 
 
 
